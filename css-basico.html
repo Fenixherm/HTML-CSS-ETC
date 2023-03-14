@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Básico</title>
+
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <style>
+        .h2-interno {
+            color: blueviolet;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Módulos:</h1>
+
+    <a href="./index.html" class="titulo-modulo">HTML Básico</a>
+    <a href="#" class="titulo-modulo">CSS Básico</a>
+
+
+    <h2 style="color: blue;">CSS inline - style="color: blue;"</h2>
+
+    <h2 class="h2-interno">CSS interno</h2>
+
+    <h2 class="h2-externo">CSS externo</h2>
+
+    <h2>Tipos de Cores no CSS:</h2>
+    <p class="cor-nome"><b class="negrito">Nome da Cor - </b>sit amet consectetur adipisicing elit. Illo necessitatibus
+        ad aut, exercitationem amet, temporibus repellendus magni nulla hic earum quia accusantium nihil alias facere
+        harum voluptatem et dolore laudantium.</p>
+
+    <p class="cor-rgb"><b class="negrito">Cor RGB -</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+        modi dicta! Quibusdam sequi laudantium, exercitationem a aliquid, explicabo sed hic harum distinctio voluptates
+        et dolore aspernatur officia, vero magnam enim?</p>
+
+    <p class="cor-hexadecimal"><b class="negrito">Cor Hexadecimal -</b> Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Perspiciatis reiciendis exercitationem expedita nihil laborum illum soluta modi! Ullam
+        recusandae fugiat expedita maiores laborum obcaecati quis mollitia inventore corporis! Quidem, natus!</p>
+
+    <h2>Espaçamento externo - margin</h2>
+    <ul>
+        <li class="comidas">Queijo</li>
+        <li class="comidas">Presunto</li>
+        <li class="comidas">Mussarela</li>
+    </ul>
+
+    <h2>Espaçamento interno - padding + border</h2>
+    <table>
+        <tr>
+            <td class="tabela-comidas">Queijo</td>
+            <td class="tabela-comidas">Presunto</td>
+            <td class="tabela-comidas">Mussarela</td>
+        </tr>
+    </table>
+
+    <h2>Modelos de caixas: </h2>
+    <p class="texto-gen">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda voluptas voluptates,
+        praesentium quis ratione reprehenderit quo unde amet numquam nulla? Vitae nulla deleniti, maiores id assumenda
+        culpa rem sed cumque!</p>
+
+    <p class="texto-gen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aspernatur nulla, atque quos,
+        animi adipisci nam ipsam error quibusdam repellat eum obcaecati! Vitae, adipisci voluptatibus distinctio eaque
+        laboriosam quae quam!</p>
+
+    <h2>Tipos de caixas</h2>
+
+    <h3 class="texto-inline">H3 Inline:</h3>
+    <p class="texto-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis vero quidem
+        quia atque, laborum deleniti voluptas totam itaque! Iure rerum reiciendis velit. Eveniet eos natus, nihil fugiat
+        in sit.</p>
+
+    <p>A tag "a" ela é inline por padrão exemplo: <a href="#">TOPO</a></p>
+    <p> Agora essa tag "a" é <a href="" class="a-block">tipo-block</a> viu! </p>
+
+
+    <h2>Ids e Classes:</h2>
+    <h3 id="unico-id">Ids é único</h3>
+    <h3 class="classes">Classes Não</h3>
+
+    <div class="rodape">
+        <h2 class="texto-centralizado">Div e Span</h2>
+        <table class="tabela-produto">
+            <tr>
+                <th class="cabeca-tabela">Produto</th>
+                <th class="cabeca-tabela">Valor</th>
+                <th class="cabeca-tabela">Disponibilidade</th>
+            </tr>
+            <tr>
+                <td class="dados-tabela">Camiseta</td>
+                <td class="dados-tabela">R$30,00</td>
+                <td class="dados-tabela">10</td>
+            </tr>
+            <tr>
+                <td class="dados-tabela" >Calça</td>
+                <td class="dados-tabela"><span>R$59,90</span></td>
+                <td class="dados-tabela">5</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="unidade">
+        <h3>Medidas relativas</h3>
+        <div class="pai">
+            <p>Pai</p>
+            <div class="filha">
+                <p>Filha</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+    <div class="boxsizing">
+        <h2>Box-sizing: border-box</h2>
+
+        <p class="textoo sem-border-box">Sem Border Box</p>
+
+        <p class="textoo com-border-box">Com Border Box</p>
+    
+
+    </div>
+
+
+</html>
