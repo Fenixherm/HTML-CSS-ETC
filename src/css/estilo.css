@@ -1,9 +1,36 @@
-.titulo-modulo{
-    margin: 10px;
-    padding: 10px;
-    border: solid;
-    background-color: bisque;
+.titulo {
+    margin: 25px auto 40px auto;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    width: 15%;
+
+}
+
+.modulos {
+    margin: 0px auto;
     color: black;
+    text-align: center;
+    max-width: 1280px;
+}
+
+.modulos h2, .modulos p, .titulo h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+
+.modulos a {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    max-width: 10%;
+    margin: auto 10px auto 10px;
+}
+
+.modulos .logotipo {
+    width: 100px;
+    height: 100px;
 }
 
 .cabeca-tabela, .dados-tabela{
