@@ -5,13 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/estilo.css">
 </head>
 <body>
-    <h1>About</h1>
+    <header class="modulos">
+        <a href="/index.html" class="titulo">
+            <h1>Desenvolvimento Web</h1>
+        </a>
 
-    <h2>Links Internos</h2>
+        <nav>
+            <a href="./html-basico.html"><img class="logotipo" src="./src/Imagens/logo-html5.png" alt="logo-HTML5">
+            </a>
+            <a href="./css-basico.html"><img class="logotipo" src="./src/Imagens/logo-css3.png" alt="logo-CSS3">
+            </a>
+        </nav>
+    </header>
 
-    <a href="./index.html">Voltar</a>
+    <h2>Contato</h2>
+
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+    
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="Digite seu email"><br>
+
+    <label for="celular">Numero de celular:</label>
+    <input type="tel" name="celular" id="celular" placeholder="Digite o número do seu celular" required><br>
+
+    <button type="submit">Enviar</button>
 
 </body>
 </html>
