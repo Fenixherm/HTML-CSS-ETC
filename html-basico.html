@@ -11,27 +11,62 @@
 
     <link rel="stylesheet" href="./src/css/estilo.css">
 
+    <link rel="stylesheet" href="./src/css/css-basico.css">
+
+    <link rel="stylesheet" href="./src/css/css-inter.css">
+
 
     <title>HTML básico</title>
 </head>
 
 <body>
-
-    <header class="modulos">
-        <a href="index.html" class="titulo">
+    <header class="cabecalho">
+        <a href="./index.html" class="titulo">
             <h1>Desenvolvimento Web</h1>
         </a>
 
         <nav>
-            <a href="./html-basico.html"><img class="logotipo" src="./src/Imagens/logo-html5.png" alt="logo-HTML5">
-            </a>
-            <a href="./css-basico.html"><img class="logotipo" src="./src/Imagens/logo-css3.png" alt="logo-CSS3">
-            </a>
+            <ul>
+                <li><a href="./html-basico.html">
+
+                        <figure>
+                            <img src="./src/Imagens/logo-html5.png" alt="html basico">
+                            <figcaption>Html Básico</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li><a href="./css-basico.html">
+                        <figure>
+                            <img src="./src/Imagens/logo-css3.png" alt="html basico">
+                            <figcaption>CSS Básico</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="./html-intermediario.html">
+                        <figure>
+                            <img src="./src/Imagens/logo-html5.png" alt="html intermediario">
+                                <figcaption>HTML Intermediário</figcaption>
+                            </img>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="./css-intermediario.html">
+                        <figure>
+                            <img src="./src/Imagens/logo-css3.png" alt="css intermediario">
+                                <figcaption>CSS Intermediário</figcaption>
+                            </img>
+                        </figure>
+                    </a>
+                </li>
+
+            </ul>
         </nav>
     </header>
 
 
-    <div>
+    <div class="headers-estilo">
         <h2>Tipos de headers</h2>
         <h1>H1</h1>
         <h2>H2</h2>
@@ -73,14 +108,15 @@
             alt="meme2">
     </div>
 
-    <div>
-        <h2>Listas: UL:unordered list e OL:ordered list</h2>
+    <div class="lista-ol-estilo">
+        <h2>UL:unordered list</h2>
         <ul>
             <li>1kg de Picanha</li>
             <li>1 pacote de arroz</li>
             <li>1 pacote de feijão</li>
         </ul>
-
+        <br>
+        <h2>OL:ordered list</h2>
         <ol>
             <li>Faker</li>
             <li>Kami</li>

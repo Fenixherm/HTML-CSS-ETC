@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="./src/css/estilo.css">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/css-basico.css">
+
+
+
     <style>
         .h2-interno {
             color: blueviolet;
@@ -19,78 +23,129 @@
 
 <body>
 
-    <header class="modulos">
-        <a href="/index.html" class="titulo">
+    <header class="cabecalho">
+        <a href="./index.html" class="titulo">
             <h1>Desenvolvimento Web</h1>
         </a>
 
         <nav>
-            <a href="./html-basico.html"><img class="logotipo" src="./src/Imagens/logo-html5.png" alt="logo-HTML5">
-            </a>
-            <a href="./css-basico.html"><img class="logotipo" src="./src/Imagens/logo-css3.png" alt="logo-CSS3">
-            </a>
+            <ul>
+                <li><a href="./html-basico.html">
+
+                        <figure>
+                            <img src="./src/Imagens/logo-html5.png" alt="html basico">
+                            <figcaption>Html Básico</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li><a href="./css-basico.html">
+                        <figure>
+                            <img src="./src/Imagens/logo-css3.png" alt="html basico">
+                            <figcaption>CSS Básico</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="./html-intermediario.html">
+                        <figure>
+                            <img src="./src/Imagens/logo-html5.png" alt="html intermediario">
+                            <figcaption>HTML Intermediário</figcaption>
+                            </img>
+                        </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="./css-intermediario.html">
+                        <figure>
+                            <img src="./src/Imagens/logo-css3.png" alt="css intermediario">
+                            <figcaption>CSS Intermediário</figcaption>
+                            </img>
+                        </figure>
+                    </a>
+                </li>
+
+            </ul>
         </nav>
     </header>
 
+    <div>
+        <h2 style="color: blue;">CSS inline - style="color: blue;"</h2>
 
-    <h2 style="color: blue;">CSS inline - style="color: blue;"</h2>
+        <h2 class="h2-interno">CSS interno</h2>
 
-    <h2 class="h2-interno">CSS interno</h2>
+        <h2 class="h2-externo">CSS externo</h2>
 
-    <h2 class="h2-externo">CSS externo</h2>
+    </div>
 
-    <h2>Tipos de Cores no CSS:</h2>
-    <p class="cor-nome"><b class="negrito">Nome da Cor - </b>sit amet consectetur adipisicing elit. Illo necessitatibus
-        ad aut, exercitationem amet, temporibus repellendus magni nulla hic earum quia accusantium nihil alias facere
-        harum voluptatem et dolore laudantium.</p>
+    <div>
+        <h2>Tipos de Cores no CSS:</h2>
+        <p class="cor-nome"><b class="negrito">Nome da Cor - </b>sit amet consectetur adipisicing elit. Illo
+            necessitatibus
+            ad aut, exercitationem amet, temporibus repellendus magni nulla hic earum quia accusantium nihil alias
+            facere
+            harum voluptatem et dolore laudantium.</p>
 
-    <p class="cor-rgb"><b class="negrito">Cor RGB -</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
-        modi dicta! Quibusdam sequi laudantium, exercitationem a aliquid, explicabo sed hic harum distinctio voluptates
-        et dolore aspernatur officia, vero magnam enim?</p>
+        <p class="cor-rgb"><b class="negrito">Cor RGB -</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Odit,
+            modi dicta! Quibusdam sequi laudantium, exercitationem a aliquid, explicabo sed hic harum distinctio
+            voluptates
+            et dolore aspernatur officia, vero magnam enim?</p>
 
-    <p class="cor-hexadecimal"><b class="negrito">Cor Hexadecimal -</b> Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Perspiciatis reiciendis exercitationem expedita nihil laborum illum soluta modi! Ullam
-        recusandae fugiat expedita maiores laborum obcaecati quis mollitia inventore corporis! Quidem, natus!</p>
+        <p class="cor-hexadecimal"><b class="negrito">Cor Hexadecimal -</b> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Perspiciatis reiciendis exercitationem expedita nihil laborum illum soluta modi! Ullam
+            recusandae fugiat expedita maiores laborum obcaecati quis mollitia inventore corporis! Quidem, natus!</p>
+    </div>
 
-    <h2>Espaçamento externo - margin</h2>
-    <ul>
-        <li class="comidas">Queijo</li>
-        <li class="comidas">Presunto</li>
-        <li class="comidas">Mussarela</li>
-    </ul>
+    <div>
+        <h2>Espaçamento externo - margin</h2>
+        <ul>
+            <li class="comidas">Queijo</li>
+            <li class="comidas">Presunto</li>
+            <li class="comidas">Mussarela</li>
+        </ul>
 
-    <h2>Espaçamento interno - padding + border</h2>
-    <table>
-        <tr>
-            <td class="tabela-comidas">Queijo</td>
-            <td class="tabela-comidas">Presunto</td>
-            <td class="tabela-comidas">Mussarela</td>
-        </tr>
-    </table>
+        <h2>Espaçamento interno - padding + border</h2>
+        <table>
+            <tr>
+                <td class="tabela-comidas">Queijo</td>
+                <td class="tabela-comidas">Presunto</td>
+                <td class="tabela-comidas">Mussarela</td>
+            </tr>
+        </table>
+    </div>
 
-    <h2>Modelos de caixas: </h2>
-    <p class="texto-gen">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda voluptas voluptates,
-        praesentium quis ratione reprehenderit quo unde amet numquam nulla? Vitae nulla deleniti, maiores id assumenda
-        culpa rem sed cumque!</p>
+    <div>
+        <h2>Modelos de caixas: </h2>
+        <p class="texto-gen">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda voluptas voluptates,
+            praesentium quis ratione reprehenderit quo unde amet numquam nulla? Vitae nulla deleniti, maiores id
+            assumenda
+            culpa rem sed cumque!</p>
 
-    <p class="texto-gen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aspernatur nulla, atque quos,
-        animi adipisci nam ipsam error quibusdam repellat eum obcaecati! Vitae, adipisci voluptatibus distinctio eaque
-        laboriosam quae quam!</p>
+        <p class="texto-gen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aspernatur nulla, atque quos,
+            animi adipisci nam ipsam error quibusdam repellat eum obcaecati! Vitae, adipisci voluptatibus distinctio
+            eaque
+            laboriosam quae quam!</p>
 
-    <h2>Tipos de caixas</h2>
+        <h2>Tipos de caixas</h2>
 
-    <h3 class="texto-inline">H3 Inline:</h3>
-    <p class="texto-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis vero quidem
-        quia atque, laborum deleniti voluptas totam itaque! Iure rerum reiciendis velit. Eveniet eos natus, nihil fugiat
-        in sit.</p>
+        <h3 class="texto-inline">H3 Inline:</h3>
+        <p class="texto-inline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur perspiciatis vero
+            quidem
+            quia atque, laborum deleniti voluptas totam itaque! Iure rerum reiciendis velit. Eveniet eos natus, nihil
+            fugiat
+            in sit.</p>
 
-    <p>A tag "a" ela é inline por padrão exemplo: <a href="#">TOPO</a></p>
-    <p> Agora essa tag "a" é <a href="" class="a-block">tipo-block</a> viu! </p>
+        <p>A tag "a" ela é inline por padrão exemplo: <a href="#">TOPO</a></p>
+        <p> Agora essa tag "a" é <a href="" class="a-block">tipo-block</a> viu! </p>
 
+    </div>
 
-    <h2>Ids e Classes:</h2>
-    <h3 id="unico-id">Ids é único</h3>
-    <h3 class="classes">Classes Não</h3>
+    <div>
+        <h2>Ids e Classes:</h2>
+        <h3 id="unico-id">Ids é único</h3>
+        <h3 class="classes">Classes Não</h3>
+
+    </div>
 
     <div class="rodape">
         <h2 class="texto-centralizado">Div e Span</h2>
@@ -106,7 +161,7 @@
                 <td class="dados-tabela">10</td>
             </tr>
             <tr>
-                <td class="dados-tabela" >Calça</td>
+                <td class="dados-tabela">Calça</td>
                 <td class="dados-tabela"><span>R$59,90</span></td>
                 <td class="dados-tabela">5</td>
             </tr>
@@ -124,15 +179,15 @@
     </div>
 </body>
 
-    <div class="boxsizing">
-        <h2>Box-sizing: border-box</h2>
+<div class="boxsizing">
+    <h2>Box-sizing: border-box</h2>
 
-        <p class="textoo sem-border-box">Sem Border Box</p>
+    <p class="textoo sem-border-box">Sem Border Box</p>
 
-        <p class="textoo com-border-box">Com Border Box</p>
-    
+    <p class="textoo com-border-box">Com Border Box</p>
 
-    </div>
+
+</div>
 
 
 </html>
